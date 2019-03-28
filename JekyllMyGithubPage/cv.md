@@ -19,3 +19,4 @@ permalink: /cv/
 | _August – October 2017:_|Working Student with **Rebecca Harris** - True Connection Instructor, Balanced Horsemanship, UK, 2,5 months
 | _November 2017 – April 2018:_| Working Student with **Luca Moneta**, <br/> International Showjumper, Italy, 5 months
 | _April – August 2018:_| Horse Development Student including Colt Start at **Cardinal Ranch** (Parelli 3*- Instructors), 4 months |
+<br/> <br/>
