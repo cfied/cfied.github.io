@@ -1,63 +1,81 @@
 <!DOCTYPE html>
 	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+  <head>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
 
-			{{ content }}
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+
+		{{ content }}
 
 
-      <div class="row">
-       <div class="column">
-         <img src="/assets/ShooterRiver.jpg" alt="Snow" style="width:100%">
-       </div>
-       <div class="column">
-         <img src="/assets/ShooterRiver.jpg" alt="Forest" style="width:100%">
-       </div>
-       <div class="column">
-         <img src="/assets/ShooterRiver.jpg" alt="Mountains" style="width:100%">
-       </div>
+    <div class="row">
+     <div class="column">
+       <img src="/assets/ShooterRiver.jpg" alt="Snow" style="width:100%">
+     </div>
+     <div class="column">
+       <img src="/assets/ShooterRiver.jpg" alt="Forest" style="width:100%">
+     </div>
+     <div class="column">
+       <img src="/assets/ShooterRiver.jpg" alt="Mountains" style="width:100%">
+     </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="row">
+      <div class="column">
+        <!--<a href="/cv">-->
+        <img src="/assets/ShooterRiver.jpg" style="width:100%">
+
       </div>
+      <div class="column">
+      <!--  <a href="/cv">-->
+        <img src="/assets/Maths.jpg" style="width:100%">
 
-
-
-
-
-
-
-      <div class="row">
-        <div class="column">
-          <!--<a href="/cv">-->
-          <img src="/assets/ShooterRiver.jpg" style="width:100%">
-
-        </div>
-        <div class="column">
-        <!--  <a href="/cv">-->
-          <img src="/assets/Maths.jpg" style="width:100%">
-
-        </div>
       </div>
+    </div>
 
 
-      <br>
-			<br>
-			</div>
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:carina.x.fiedler@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/cfied">github.com/cfied</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+    <br>
+		<br>
+		</div>
+		<footer>
+    		<ul>
+        		<li><a href="mailto:carina.x.fiedler@gmail.com">email</a></li>
+        		<li><a href="https://github.com/cfied">github.com/cfied</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
