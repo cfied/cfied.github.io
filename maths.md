@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Maths and Computer Science
+lang: en
+ref: maths
 permalink: /about/maths
 ---
 

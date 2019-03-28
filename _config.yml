@@ -1,3 +1,47 @@
 name: Carina Fiedler
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title.html
+
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "/about"
+    cv:
+      name: "CV"
+      url: "/cv"
+    blog:
+      name: "Blog"
+      url: "/blog"
+  de:
+    home:
+      name: "Home"
+      url: "/indexDE"
+    about:
+      name: "Über"
+      url: "/aboutDE"
+    cv:
+      name: "CV"
+      url: "/cvDE"
+    blog:
+      name: "Blog"
+      url: "/blogDE"
+
+s:
+  en:
+    horse:
+      name: "Do you want to know why horses are great?"
+      url: "horse"
+    maths:
+      name: "Why I love Maths and Computer Science"
+      url: "maths"
+  de:
+    horse:
+      name: "Willst du wissen, was das Besondere an Pferden ist?"
+      url: "horseDE"
+    maths:
+      name: "Was ich an Mathe und Informatik so liebe"
+      url: "mathsDE"

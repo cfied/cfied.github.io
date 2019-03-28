@@ -25,10 +25,9 @@
 	<body>
 		<nav>
     		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
+					{% for menu in site.t[page.lang] %}
+						<li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+					{% endfor %}
     		</ul>
 		</nav>
 		<div class="container">
@@ -40,15 +39,15 @@
 
     <div class="row">
       <div class="column">
-        <a href="/cv">
+        <a href="{{ site.s[page.lang].horse.url }}">
         <img src="/assets/ShooterRiver.jpg" style="width:100%">
-        Do you want to know why horses are great?
+        {{ site.s[page.lang].horse.name }}
         </a>
       </div>
       <div class="column">
-        <a href="/about/maths">
+        <a href="{{ site.s[page.lang].maths.url }}">
         <img src="/assets/Maths.jpg" style="width:100%">
-        Why I love Maths and Computer Science
+        {{ site.s[page.lang].maths.name }}
         </a>
       </div>
     </div>
