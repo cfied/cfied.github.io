@@ -2,7 +2,8 @@
 layout: default
 title: CV
 lang: de
-permalink: /cvDE/
+ref: cv
+permalink: /cv/de
 ---
 
 ## Mathe und Informatik

@@ -9,26 +9,26 @@ t:
       url: "/"
     about:
       name: "About"
-      url: "/about"
+      url: "/about/en"
     cv:
       name: "CV"
-      url: "/cv"
+      url: "/cv/en"
     blog:
       name: "Blog"
-      url: "/blog"
+      url: "/blog/"
   de:
     home:
       name: "Home"
-      url: "/indexDE"
+      url: "/de"
     about:
       name: "Über"
-      url: "/aboutDE"
+      url: "/about/de"
     cv:
       name: "CV"
-      url: "/cvDE"
+      url: "/cv/de"
     blog:
       name: "Blog"
-      url: "/blogDE"
+      url: "/blog"
 
 s:
   en:
