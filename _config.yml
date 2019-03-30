@@ -1,6 +1,5 @@
-name: Carina Fiedler
+title: Carina Fiedler
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title.html
 
 t:
   en:
@@ -13,9 +12,6 @@ t:
     cv:
       name: "CV"
       url: "/cv/en"
-    blog:
-      name: "Blog"
-      url: "/blog/"
   de:
     home:
       name: "Home"
@@ -26,9 +22,6 @@ t:
     cv:
       name: "CV"
       url: "/cv/de"
-    blog:
-      name: "Blog"
-      url: "/blog"
 
 s:
   en:
