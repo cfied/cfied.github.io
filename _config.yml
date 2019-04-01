@@ -27,14 +27,14 @@ s:
   en:
     horse:
       name: "Do you want to know why horses are great?"
-      url: "horse"
+      url: "horse/en"
     maths:
       name: "Why I love Maths and Computer Science"
-      url: "maths"
+      url: "maths/en"
   de:
     horse:
       name: "Willst du wissen, was das Besondere an Pferden ist?"
-      url: "horseDE"
+      url: "horse/de"
     maths:
       name: "Was ich an Mathe und Informatik so liebe"
-      url: "mathsDE"
+      url: "maths/de"
