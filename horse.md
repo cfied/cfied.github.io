@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: horses
 title: Horses
 lang: en
 ref: horse

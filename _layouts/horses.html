@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+	<html>
+  <head>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: fit-content(100%);
+    padding: 1px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+					{% for menu in site.t[page.lang] %}
+						<li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+					{% endfor %}
+					<a href="en">
+						<img src="/assets/english.jpg" width="23" height="=14">
+					</a>
+					<a href="de">
+						<img src="/assets/deutsch.png" width="20" height="=12">
+					</a>
+    		</ul>
+		</nav>
+		<div class="container">
+
+		{{ content }}
+
+
+
+
+    <div class="row">
+      <div class="column">
+        <img src="/assets/SaltyCanterBridleless.jpg" height="130" >
+      </div>
+      <div class="column">
+        <img src="/assets/BrandyFinesse.jpg" height="130">
+      </div>
+      <div class="column">
+        <img src="/assets/GreymareLiberty.jpg" height="130">
+      </div>
+      <div class="column">
+        <img src="/assets/VectorJump.png" height="130">
+      </div>
+      <div class="column">
+        <img src="/assets/SaltySitting.jpg" height="130">
+      </div>
+      <div class="column">
+        <img src="/assets/ShooterCows.jpg" height="130">
+      </div>
+
+    </div>
+
+
+    <br>
+		<br>
+		</div>
+		<footer>
+    		<ul>
+        		<li><a href="mailto:carina.x.fiedler@gmail.com">email</a></li>
+        		<li><a href="https://github.com/cfied">github.com/cfied</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
