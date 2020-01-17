@@ -9,7 +9,8 @@ permalink: /cv/en
 
 | _August 2016_|Deutsche Schülerakademie - Information retrieval, Papenburg, 1,5 weeks
 | _September 2018 - now_|BSc Computer Science and Mathematics, University of Edinbugh
-| _March 2019_ |24-hour hackathon - StacksHack, St. Andrews |
+| _March 2019_ |24-hour hackathon - StacksHack, St. Andrews
+| _October 2019_ | Code for Good - JP Morgan, Glasgow |
 
 
 ## Horses
