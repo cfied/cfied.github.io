@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: maths
 title: Maths and Computer Science
 lang: en
 ref: maths

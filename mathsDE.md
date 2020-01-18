@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: maths
 title: Mathe und Informatik
 lang: de
 ref: maths
