@@ -38,3 +38,11 @@ s:
     maths:
       name: "Was ich an Mathe und Informatik so liebe"
       url: "maths/de"
+
+p:
+  en:
+    ants: "View AntColonyOptimization on Github"
+    messenger: "View EasyMessenger on Github"
+  de:
+    ants: "Sieh dir AntColonyOptimization auf Github an"
+    messenger: "Sieh dir EasyMessenger auf Github an"

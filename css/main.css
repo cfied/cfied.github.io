@@ -1,9 +1,10 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family:'Source Sans Pro';
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Source Sans Pro';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -11,6 +12,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-family:'Source Sans Pro';
 }
 a {
     text-decoration: none;
@@ -20,13 +22,14 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
+
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
+
 }
 footer {
     border-top: 1px solid #d5d5d5;
